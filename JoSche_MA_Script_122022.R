@@ -20,7 +20,7 @@ library(reshape2, warn.conflicts = FALSE)
 library(descomponer, warn.conflicts = FALSE)
 
 Sys.setenv(TZ='GMT')
-rm(list = ls())
+#rm(list = ls())
 
 #### directories
 in.dir = "./inputs/"
