@@ -43,11 +43,14 @@ This way you do not calculate the mean minimal depth of the random forest models
 
 Sources:
 
-Find the original data sets at:
 ACC: United States Geological Survey (2022): https://waterdata.usgs.gov/monitoring-location/01654000/#parameterCode=00065&period=P7D
-HND & SBH: Terrestrial Environmental Observatories (2022): https://ddp.tereno.net/ddp/dispatch?sosurls=UFZ,https%3A%2F%2Fwebapp.ufz.de%2Fdmp%2Fsos%2Ftereno%2Fsos&autozoom=lomeparu
-NNC: United States Geological Survey (2022): https://waterdata.usgs.gov/nwis/uv?site_no=07144780&legacy=1
-SMC: United States Geological Survey (2022): https://waterdata.usgs.gov/monitoring-location/01632900/#parameterCode=00065&period=P7D
-TMR: United States Geological Survey (2022): https://waterdata.usgs.gov/monitoring-location/04080798/#parameterCode=00065&period=P7D
-WEB: Personal communication
 
+HND & SBH: Terrestrial Environmental Observatories (2022): https://ddp.tereno.net/ddp/dispatch?sosurls=UFZ,https%3A%2F%2Fwebapp.ufz.de%2Fdmp%2Fsos%2Ftereno%2Fsos&autozoom=lomeparu
+
+NNC: United States Geological Survey (2022): https://waterdata.usgs.gov/nwis/uv?site_no=07144780&legacy=1
+
+SMC: United States Geological Survey (2022): https://waterdata.usgs.gov/monitoring-location/01632900/#parameterCode=00065&period=P7D
+
+TMR: United States Geological Survey (2022): https://waterdata.usgs.gov/monitoring-location/04080798/#parameterCode=00065&period=P7D
+
+WEB: Not publicly available.
