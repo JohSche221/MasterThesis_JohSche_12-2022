@@ -14,10 +14,14 @@ Content description:
 Running the code:
 
 1- Save both scripts ("irfnnhs.r" and "JoSche_MA_Script_122022.R") in the same working directory.
+
 2- create a folder called "inputs" within this working directory and add all seven data sets to this folder.
-2- Open the "JoSche_MA_Script_122022.R" script.
-3- Install necessary packages.
-4- Run the Script (if you want to save some time or have <= 16 GB of RAM, read NOTES 1 and 2)
+
+3- Open the "JoSche_MA_Script_122022.R" script.
+
+4- Install necessary packages.
+
+5- Run the Script (if you want to save some time or have <= 16 GB of RAM, read NOTES 1 and 2)
 
 ///////////////////////////////////////////////
 
