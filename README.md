@@ -2,20 +2,21 @@
 Script and Data
 ///////////////////////////////////////////////
 Content description:
-- The "inputs" folder contains the seven pre-processed data sets for the individual study areas.
+- The seven pre-processed data sets for the individual study areas (ACC, HND, NNC, SBH, SMC, TMR, WEB). Sources are linked at the bottom of this document. 
 - The "irfnnhs.r" script contains the functions for the calculation of the impulse response functions and does not need to be run. Make sure to save it in the same working directory as the "JoSche_MA_Script_122022.R" script (source: KIRCHNER, J. W. (2022): Impulse Response Functions for Nonlinear, Nonstationary, and Heterogene-ous Systems, Estimated by Deconvolution and Demixing of Noisy Time Series. Sensors 22(9): 3291. DOI: 10.3390/s22093291).
-- The "JoSche_MA_Script_122022.R" script contains the code for all Models and Figures presented within the final thesis which were calculated within RStudio. 
+- The "JoSche_MA_Script_122022.R" script contains the code for all Models and Figures presented within the final thesis "Comparative Analysis of In-Stream Nitrate Behaviour During Low-Flow Conditions Across Landscapes" which were calculated within RStudio. 
 
 ///////////////////////////////////////////////
 Running the code:
-1- Save both scripts ("irfnnhs.r" and "JoSche_MA_Script_122022.R") as well as the "inputs" folder in the same working directory.
+1- Save both scripts ("irfnnhs.r" and "JoSche_MA_Script_122022.R") in the same working directory.
+2- create a folder called "inputs" within this working directory and add all seven data sets to this folder.
 2- Open the "JoSche_MA_Script_122022.R" script.
 3- Install necessary packages.
-4- Run the Script
+4- Run the Script (if you want to save some time or have <= 16 GB of RAM, read NOTES 1 and 2)
 
 ///////////////////////////////////////////////
 NOTE 1:
-Running the entire "JoSche_MA_Script_122022" script may take 5-10 hours depending on RAM availability and the CPU. If not enough RAM (< 32 GB) is available, the script might(!) crash during the calculation of the random forest models (in some cases it may work, so it is worth a try as long as you have at least 16 GB of RAM). If it crashes, run the models one-by-one (lines 1300-1420). Empty unused ram in-between models if necessary. 
+Running the entire "JoSche_MA_Script_122022" script may take 5-10 hours depending on RAM availability and the CPU. If not enough RAM (< 32 GB) is available, the script might(!) crash during the calculation of the random forest models (in some cases it may work, so it is worth a try as long as you have at least 16 GB of RAM). If it crashes, run the models one-by-one (lines 1300-1420). Empty unused RAM in-between models if necessary. 
 The models will not run on systems with <= 8 GB of RAM. In this case, run lines 1-1294 and lines 1677-3978. This will skip Random Forest model calculations entirely.
 
 ///////////////////////////////////////////////
