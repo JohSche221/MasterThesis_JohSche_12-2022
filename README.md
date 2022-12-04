@@ -6,7 +6,7 @@ Script and Data
 Content description:
 
 - The seven pre-processed data sets for the individual study areas (ACC, HND, NNC, SBH, SMC, TMR, WEB). Sources are linked at the bottom of this document. 
-- The "irfnnhs.r" script contains the functions for the calculation of the impulse response functions and does not need to be run. Make sure to save it in the same working directory as the "JoSche_MA_Script_122022.R" script (source: KIRCHNER, J. W. (2022): Impulse Response Functions for Nonlinear, Nonstationary, and Heterogene-ous Systems, Estimated by Deconvolution and Demixing of Noisy Time Series. Sensors 22(9): 3291. DOI: 10.3390/s22093291).
+- The "irfnnhs.r" script contains the functions for the calculation of the impulse response functions and does not need to be run. Make sure to save it in the same working directory as the "JoSche_MA_Script_122022.R" script (source: KIRCHNER, J. W. (2022): Impulse Response Functions for Nonlinear, Nonstationary, and Heterogeneous Systems, Estimated by Deconvolution and Demixing of Noisy Time Series. Sensors 22(9): 3291. DOI: 10.3390/s22093291).
 - The "JoSche_MA_Script_122022.R" script contains the code for all Models and Figures presented within the final thesis "Comparative Analysis of In-Stream Nitrate Behaviour During Low-Flow Conditions Across Landscapes" which were calculated within RStudio. 
 
 ///////////////////////////////////////////////
