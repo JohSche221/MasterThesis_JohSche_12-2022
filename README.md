@@ -4,7 +4,6 @@
 
 CONTENT DESCRIPTION:
 
-- The seven pre-processed data sets for the individual study areas (XXX_Data_08092022.txt). Sources are linked at the bottom of this document. 
 - The "irfnnhs.r" script contains the functions for the calculation of the impulse response functions and does not need to be run. Make sure to save it in the same working directory as the "JoSche_MA_Script_122022.R" script (source: KIRCHNER, J. W. (2022): Impulse Response Functions for Nonlinear, Nonstationary, and Heterogeneous Systems, Estimated by Deconvolution and Demixing of Noisy Time Series. Sensors 22(9): 3291. DOI: 10.3390/s22093291).
 - The "JoSche_MA_Script_122022.R" script contains the code for all Models and Figures presented within the final thesis "Comparative Analysis of In-Stream Nitrate Behaviour During Low-Flow Conditions Across Landscapes" which were calculated within RStudio. 
 
@@ -14,7 +13,7 @@ RUN THE CODE:
 
 1- Save both scripts ("irfnnhs.r" and "JoSche_MA_Script_122022.R") in the same working directory.
 
-2- create a folder called "inputs" within the working directory you created in Step 1 and add all seven data sets (XXX_Data_08092022.txt) to this folder.
+2- create a folder called "inputs" within the working directory you created in Step 1 and add all data sets to this folder.
 
 3- Open the "JoSche_MA_Script_122022.R" script.
 
@@ -40,7 +39,7 @@ This way you do not calculate the mean minimal depth of the random forest models
 
 ///////////////////////////////////////////////
 
-SOURCES:
+DATA SET SOURCES:
 
 ACC: United States Geological Survey (2022): https://waterdata.usgs.gov/monitoring-location/01654000/#parameterCode=00065&period=P7D
 
@@ -52,4 +51,4 @@ SMC: United States Geological Survey (2022): https://waterdata.usgs.gov/monitori
 
 TMR: United States Geological Survey (2022): https://waterdata.usgs.gov/monitoring-location/04080798/#parameterCode=00065&period=P7D
 
-WEB: Not publicly available.
+WEB: Not publicly available. Provided via personal communication from: SCHWAB, M. P., KLAUS, J., PFISTER, L. & M. WEILER (2016): Diel discharge cycles explained through viscosity fluctuations in riparian inflow. In: Water Resources Research 52 (11): 8744 – 8755. DOI: 10.1002/2016WR018626.
